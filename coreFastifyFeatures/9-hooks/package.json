@@ -1,0 +1,19 @@
+{
+  "name": "corefastifyfeatures",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@fastify/auth": "^4.4.0",
+    "fastify": "^4.24.3"
+  }
+}
