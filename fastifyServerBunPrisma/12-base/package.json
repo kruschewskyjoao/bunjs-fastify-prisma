@@ -1,0 +1,22 @@
+{
+  "name": "corefastifyfeatures",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@fastify/auth": "^4.4.0",
+    "@fastify/error": "^3.4.1",
+    "@fastify/type-provider-typebox": "^3.5.0",
+    "@sinclair/typebox": "^0.31.28",
+    "fastify": "^4.24.3"
+  }
+}

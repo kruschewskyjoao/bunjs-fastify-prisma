@@ -13,3 +13,8 @@ cd coreFastifyFeatures/6-routes
 
 # start server with:
 bun run dev
+
+
+# In the "fastifyServerBunPrisma/13-repository" folder there is a deploy.sh file that will upload the application via docker
+## Just run the command: 
+sh deploy.sh
